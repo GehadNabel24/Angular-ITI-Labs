@@ -1,0 +1,70 @@
+#about{
+    width: 100%;
+    height: 100vh;
+}
+
+#about .container{
+    padding-top: 70px;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading span{
+    color: #b2744b;
+}
+
+#about .cart {
+    border-radius: 10px;
+}
+
+
+#about .card img {
+    border-radius: 10px;
+}
+
+#about-btn{
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #b2744b;
+    color: #b2744b;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#about-btn:hover{
+    color: white;
+    background-color: #b2744b;
+}
+
+@media screen and(max-width:982px) 
+{
+    #about p{
+        font-size: 8px;
+    }
+    
+}
+
+
+
+@media screen and(max-width:966px) 
+{
+    #about p{
+        font-size: 15px;
+    }
+    #about{
+        height: 120vh;
+    }
+    
+}
+
+

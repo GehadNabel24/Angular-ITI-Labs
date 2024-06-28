@@ -1,0 +1,33 @@
+.top-cards{
+    width: 100%;
+    background: #f7f5f7;
+}
+
+.heading{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.heading span{
+    color: #b2744b;
+}
+
+.top-cards .container{
+    margin-top: 30px;
+}
+.top-cards .card{
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.top-cards .card img{
+    border-radius: 10px;
+}
+
+.top-cards .card:hover{
+    transform: translateY(-10px);
+}

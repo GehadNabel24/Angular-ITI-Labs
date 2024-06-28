@@ -1,0 +1,54 @@
+#menu{
+    width: 100%;
+    margin-top: 60px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    color: #b2744b;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744b;
+}
+
+#container{
+    margin-top: 50px;
+    
+}
+
+#menu .card{
+    box-shadow: rgba(149, 156, 165, 0.2) 0px 8px 24px;
+    margin-top: 50px;
+
+}
+
+.star i{
+    color: #b2744c;
+}
+
+#menu h3{
+    text-align: center;
+    color: #b2744b;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#menu p {
+    font-size: 16px;
+    color: #b2744b;
+    padding-top: 10px;
+}
+
+#menu p span {
+    float: right;
+    cursor: pointer;
+}
+
+/* the first padding applies to the top, the second to the right and left, the third to the bottom */
+
+button{
+    padding: 2px 10px 2px;
+background-color: #efe9e4;
+    border-radius: 2px;
+}
+

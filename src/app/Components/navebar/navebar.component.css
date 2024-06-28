@@ -1,0 +1,40 @@
+#navbar{
+    background-color: #b2744b;
+}
+
+#logo img{
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 40px;
+}
+
+
+.navbar-nav{
+    margin-left: 50px;
+}
+
+.nav-item .nav-link{
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover{
+    color: black;
+    border-radius: 5px;
+    background-color: #f7f2f7;
+}
+
+#navbar form button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+
+#navbar form button:hover{
+    background-color: white;
+    color: black;
+
+}

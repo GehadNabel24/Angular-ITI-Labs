@@ -1,0 +1,43 @@
+<!-- <app-navebar></app-navebar> -->
+
+
+
+
+
+<section class="sproduct container my-5 pt-5">
+    <div class="row mt-5">
+      <div class="col-lg-5 col-md-12 col-12">
+        <img
+          id="mainimg"
+          class="rounded img-fluid w-100 pb-1"
+          src="{{product?.image}}"
+          alt=""
+        />
+
+      </div>
+      <div class="col-lg-6 col-md-12 col-12">
+        <h6>Coffee Details</h6>
+        <h3 class="py-5">Product Name: {{product?.name}} </h3>
+        <h2> Product Price   :{{product?.price  |currency}}</h2>
+        <h3> Product quantity   :{{product?.quantity }}</h3>
+
+        <!-- <button class="buy-btn">Add To Cart</button> -->
+        <h4 class="mt-3 mb-3">Product Details</h4>
+        <span
+          >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Consequuntur praesentium rem est deserunt minima modi numquam eos
+          doloribus ipsa commodi velit illo necessitatibus totam, eveniet ad
+          omnis ut placeat iure!</span
+        >
+        <br>
+      <button (click)="backToProducts()" class="btn btn-success p-3 mt-5 rounded ">Back To Products</button>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+<!-- <app-footer></app-footer> -->
